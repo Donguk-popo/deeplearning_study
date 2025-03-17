@@ -1,0 +1,25 @@
+머신러닝 퀴즈
+구글 드라이브에 hotel.csv. 파일을 사용해서
+호텔 예약자 들의 취소 가능성을 예측하는 모델을 만들어 주기 바랍니다.
+강의 시간에 다뤘던 데이터셋보다 비교적 데이터의 크기가 크니 주의해서 다루기 바랍니다.
+데이터셋에 포함된 feature 에 대한 설명은 다음과 같습니다.
+hotel :
+H1 = 리조트 형 호텔
+H2 = 시내 호텔
+is_canceled
+1 : 예약이 취소된 건
+0 : 정상 예약
+lead_time
+예약시점에서 예약일로부터 숙박일 까지의 남은 기간
+arrival_date_year
+도착 예정 연도
+arrivial_date_month
+도착 예정 월
+arrival_date_week_number
+도착 예정 주 (1년 52주 중 몇번째 주인지)
+arrival_date_day_of_month
+도착 예정 일
+stays_in_weekend_nights
+예약일 중 포함된 주말의 박 수
+stays_in_week_nights
+예약일 중 포함된 평일의 박 수
